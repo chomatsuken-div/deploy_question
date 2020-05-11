@@ -20,3 +20,7 @@ default: &default
 development:
   <<: *default
   database: jquery_question_development
+
+production:
+  <<: *default
+  database: jquery_question_production
